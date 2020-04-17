@@ -5,6 +5,7 @@ pactl upload-sample /usr/share/sounds/freedesktop/stereo/audio-volume-change.oga
 
 # Check if the volume should be muted.
 if [[ "$1" == "mute" ]]; then
+  pactl set-sink-volume @DEFAULT_SINK@ 0
   pactl set-sink-mute @DEFAULT_SINK@ 1
   exit 0
 else
