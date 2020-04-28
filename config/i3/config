@@ -249,3 +249,6 @@ exec_always --no-startup-id libinput-gestures-setup restart
 
 # Redshift
 exec --no-startup-id /usr/bin/redshift -l 52.220852:6.890950
+
+# Misc keyboard bindings
+bindsym XF86Display exec arandr
