@@ -1,0 +1,11 @@
+# main account
+Host github.com-yuhanun
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/id_rsa
+
+Host citgez.dev
+	Port 15624
+
+Host pi.citgez.dev
+	Port 15626 
