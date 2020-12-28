@@ -1,7 +1,6 @@
 # Only run if in interactive mode.
 status --is-interactive; or exit
 
-
 # content has to be in .config/fish/config.fish
 # if it does not exist, create the file
 setenv SSH_ENV $HOME/.ssh/environment

@@ -243,4 +243,7 @@ bindsym $super+Control+Shift+4 exec $HOME/.config/i3/ss_c.sh -s | xclip -selecti
 exec_always --no-startup-id libinput-gestures-setup restart
 
 # Redshift
-exec --no-startup-id /usr/bin/redshift
+exec --no-startup-id /usr/bin/redshift -l 52.220852:6.890950
+
+# Misc keyboard bindings
+bindsym XF86Display exec arandr
