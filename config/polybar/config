@@ -222,5 +222,5 @@ fixed-values = true
 
 [module/public-ip]
 type = custom/script
-exec = ~/.config/polybar/scripts/public-ip.sh
+exec = /home/john/.config/polybar/scripts/public-ip.sh
 interval = 2
