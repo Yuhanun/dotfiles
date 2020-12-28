@@ -26,6 +26,9 @@ Plugin 'preservim/nerdtree'
 " Real-time syntax analysis for C++
 Plugin 'vim-syntastic/syntastic'
 
+" Autocompletion
+Plugin 'valloric/youcompleteme'
+
 " Snippet engine.
 Plugin 'SirVer/ultisnips'
 

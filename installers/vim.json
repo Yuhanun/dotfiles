@@ -1,6 +1,13 @@
 {
 	"module_name": "vim",
-	"installer": "./custom_install_scripts/vim.sh",
-	"arguments": "",
-	"working_dir": "."
+	"author": "Yuhanun Citgez",
+	"working_dir": "{DOT_INSTALL_DIR}",
+	"depends": [
+		"package:vim kite",
+		"sh:vim-post"
+	],
+	"config_dir": "vim",
+	"config_files": {
+		".vimrc": "{DOT_INSTALL_DIR}/.vimrc"
+	}
 }

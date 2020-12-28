@@ -1,0 +1,6 @@
+{
+    "module_name": "sh:vim-post",
+    "installer": "./vim.sh",
+    "arguments": "",
+    "working_dir": "custom_install_scripts"
+}
